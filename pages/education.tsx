@@ -15,7 +15,7 @@ class Education extends React.Component<{}> {
         let renderer = new THREE.WebGLRenderer({ antialias: true });
         renderer.setSize(window.innerWidth, window.innerHeight);
         container = document.getElementById('education-canvas-container');
-        container.appendChild(renderer.domElement);
+        container?.appendChild(renderer.domElement);
 
         let particlesCount = 5000;
         let particlesGeometry = new THREE.BufferGeometry();

@@ -16,7 +16,7 @@ class Experiences extends React.Component {
     let renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
     container = document.getElementById('experience-canvas-container');
-    container.appendChild(renderer.domElement);
+    container?.appendChild(renderer.domElement);
 
     let particlesCount = 1000;
     let particlesGeometry = new THREE.BufferGeometry();
