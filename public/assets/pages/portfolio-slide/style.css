@@ -157,6 +157,7 @@ ul, li {
 }
 .slider__text-line {
   overflow: hidden;
+  color: #F8EFBA;
 }
 .slider__inner {
   position: absolute;
