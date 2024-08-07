@@ -47,7 +47,7 @@ const Menu = () => {
       <div className='text-left pt-1'>
         <Link href="/portfolio">
           <a className="hover:cursor-pointer">
-            Projects
+            Portfolio
           </a>
         </Link>
       </div>
