@@ -77,15 +77,15 @@ class Education extends React.Component<{}> {
                     <link rel="icon" href="/favicon.png" />
                 </Head>
                 <main className='flex items-center justify-center w-screen h-screen cursor-default p-4 mt-5'>
-                    <div className="w-full max-w-2xl p-4 border border-slate-400 rounded-lg outline">
-                        <div className="text-lg font-bold mb-4 text-white">Education</div>
+                    <div className="w-full max-w-3xl p-4 border border-slate-400 rounded-lg outline">
+                        <div className="text-lg font-bold mb-5 text-white">Education</div>
                         <div className="timeline">
                             <div className="timeline-item rounded-lg">
                                 <div className="timeline-icon-polindra">
                                     <Image src={'/assets/img/polindra_college.png'} alt="Indramayu Polytechnic" width={40} height={40} className="rounded-full" />
                                 </div>
                                 <div className="timeline-content rounded-lg">
-                                    <div className="text-lg font-semibold text-white flex items-center">Bachelor Degree (Informatic Engineering Major)</div>
+                                    <div className="text-base font-semibold text-white flex items-center">Bachelor Degree (Informatics Engineering)</div>
                                     <div className="text-sm text-gray-400 mt-1 flex items-center">
                                         <FaMapMarkerAlt className="mr-2 text-l" /> Indramayu Polytechnic, Loh Bener, Indramayu Regency.
                                     </div>
@@ -99,7 +99,7 @@ class Education extends React.Component<{}> {
                                     <Image src={'/assets/img/smkn2tangsel.png'} alt="State Vocational High School 2" width={40} height={40} className="rounded-full" />
                                 </div>
                                 <div className="timeline-content rounded-lg">
-                                    <div className="text-lg font-semibold text-white flex items-center">Diploma (Multimedia Major)</div>
+                                    <div className="text-base font-semibold text-white flex items-center">Diploma (Multimedia Major)</div>
                                     <div className="text-sm text-gray-400 mt-1 flex items-center">
                                         <FaMapMarkerAlt className="mr-2 text-l" /> State Vocational High School 2, Pondok Aren, Tangerang Selatan City
                                     </div>
@@ -121,16 +121,16 @@ class Education extends React.Component<{}> {
                     .timeline::before {
                         content: '';
                         position: absolute;
-                        top: 0;
+                        top: 8px;
                         left: 50%;
                         margin-left: -1px;
                         width: 2px;
-                        height: 70%;
+                        height: 60%;
                         background: #ccc;
                     }
                     .timeline-item {
                         position: relative;
-                        margin: 0 0 2em 0;
+                        margin: 0 0 1em 0;
                         padding-left: 50%;
                         clear: both;
                     }
@@ -149,8 +149,8 @@ class Education extends React.Component<{}> {
                     .timeline-item .timeline-icon-polindra {
                         position: absolute;
                         top: 0;
-                        left: 53.5%;
-                        margin-left: -25px; /* Adjusted for larger icon size */
+                        left: 53%;
+                        margin-left: -25px;
                         width: 50px;
                         height: 50px;
                         background: #fff;
@@ -164,7 +164,7 @@ class Education extends React.Component<{}> {
                         position: absolute;
                         top: 0;
                         left: 47%;
-                        margin-left: -25px; /* Adjusted for larger icon size */
+                        margin-left: -25px;
                         width: 50px;
                         height: 50px;
                         background: #fff;
