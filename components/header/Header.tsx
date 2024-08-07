@@ -40,7 +40,7 @@ const Header = () => {
         <div className="navbar-nav w-full h-full flex justify-between items-center text-white md:px-4">
           <Link href="/">
             <a className="nav-item nav-link flex items-center hover:cursor-pointer">
-              <div className=''><Image src={'/assets/img/sscorp.png'} alt='logo' width={80} height={50}/></div>              
+              <div className=''><Image src={'/assets/img/sscorp.png'} alt='logo' width={70} height={40}/></div>              
             </a>
           </Link>
           <div className='md:hidden'>

@@ -77,7 +77,7 @@ class Education extends React.Component<{}> {
                     <link rel="icon" href="/favicon.png" />
                 </Head>
                 <main className='flex items-center justify-center w-screen h-screen cursor-default p-4 mt-5'>
-                    <div className="w-full max-w-2xl p-4 border border-gray-600 rounded-lg outline">
+                    <div className="w-full max-w-2xl p-4 border border-slate-400 rounded-lg outline">
                         <div className="text-lg font-bold mb-4 text-white">Education</div>
                         <div className="timeline">
                             <div className="timeline-item rounded-lg">
@@ -116,7 +116,6 @@ class Education extends React.Component<{}> {
                 <style jsx>{`
                     .timeline {
                         position: relative;
-                        padding: 1em 0;
                         list-style: none;
                     }
                     .timeline::before {
@@ -126,7 +125,7 @@ class Education extends React.Component<{}> {
                         left: 50%;
                         margin-left: -1px;
                         width: 2px;
-                        height: 100%;
+                        height: 70%;
                         background: #ccc;
                     }
                     .timeline-item {
