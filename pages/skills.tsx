@@ -79,9 +79,10 @@ class Skills extends React.Component<{}> {
                   <li>RESTful API</li>
                   <li>Redis</li>
                   <li>Nginx</li>
-                  <li>MariaDB</li>
-                  <li>Mysql</li>
-                  <li>Postgres</li>
+                  <li>MariaDB, Postgres, SQLite, MongoDB</li>
+                  <li>OAuth, JWT</li>
+                  <li>Elasticsearch</li>
+                  <li>Grafana</li>
                 </ul>
               </div>
               <div className='bg-gray-800 p-6 rounded-lg'>
@@ -89,9 +90,9 @@ class Skills extends React.Component<{}> {
                 <ul className='text-white list-disc list-inside'>
                   <li>Laravel</li>
                   <li>Yii</li>
-                  <li>Node.js</li>
+                  <li>Pandas</li>
                   <li>Express.js</li>
-                  <li>Jquery</li>
+                  <li>Jquery/Ajax</li>
                   <li>Tailwind</li>
                   <li>Bootstrap</li>
                   <li>Vue</li>
